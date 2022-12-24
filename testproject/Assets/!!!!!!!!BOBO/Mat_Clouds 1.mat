@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2559330433765026293
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Clouds 1
+  m_Shader: {fileID: -6465566751694194690, guid: f0db44dd255ec3748bcef4e77a677c58,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_2A80C598: 1
+    - Vector1_2BA361A8: 0.5
+    - Vector1_350643F1: 3.95
+    - Vector1_4CE104D9: 1.27
+    - Vector1_5536221E: 0.22
+    - Vector1_58F7D078: 0
+    - Vector1_7c6bcd9ded7a43438da657a8c6487e85: 0.5
+    - Vector1_8AAD665C: 0.5
+    - Vector1_8F075DBC: 0.46
+    - Vector1_9058DE8C: 1
+    - Vector1_919C4B0: 2
+    - Vector1_A664731F: 15.2
+    - Vector1_B4ED823D: 1
+    - Vector1_E43D3892: 0.2
+    - Vector1_E505CA4B: 2.59
+    - Vector1_EED1A887: 2.84
+    - Vector1_F95C6CB5: 100
+    - Vector1_FADC0395: -1.19
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DarkColorMul: 0.65
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionIntensity: 1
+    - _EmissionPerone: 0
+    - _FresnelEmissionPower: 2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadow: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UseAreaEmission: 0
+    - _UseFresnelEmission: 0
+    - _UseNotice: 0
+    - _UseUVColor: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - Color_2CFB5E2A: {r: 1, g: 1, b: 1, a: 0}
+    - Color_58195353: {r: 0.6745283, g: 0.8638936, b: 1, a: 0}
+    - Color_AB43344: {r: 0.029157283, g: 0.029157283, b: 0.029157283, a: 1}
+    - Color_D208A15F: {r: 0.3041965, g: 0, b: 0.20704474, a: 1}
+    - Vector4_1696EE66: {r: 0, g: 1, b: -1, a: 1}
+    - Vector4_484BA326: {r: 1, g: 0, b: 0, a: 90}
+    - _Color: {r: 1, g: 0.8620173, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UV_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _UV_Tiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1875897463422323138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6320729625275401719}
+  - component: {fileID: 5838976002522810804}
+  m_Layer: 0
+  m_Name: ResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6320729625275401719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875897463422323138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5838976002522810804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875897463422323138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955565bba2b224d03bb96e643b6189d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallPrefab: {fileID: -6368689653363131674, guid: f71ef49ecbd4f554eb16daf6cf01a3cd,
+    type: 3}
+  tilePlans:
+  - tileType: 0
+    tileColor: {r: 0.8396226, g: 0.8356621, b: 0.8356621, a: 1}
+    tileMat: {fileID: 2100000, guid: 108ae27815a2893419c1ccc824c3d4d8, type: 2}
+    tileObjs:
+    - {fileID: 2931827595630833502, guid: 43f2516dc57e5974abbe6dfc0a7f6cfe, type: 3}
+    decoObjs: []
+  - tileType: 1
+    tileColor: {r: 0, g: 1, b: 0.019954205, a: 1}
+    tileMat: {fileID: 2100000, guid: d0a18704effcdd143b07b9f6ada96133, type: 2}
+    tileObjs:
+    - {fileID: 4835999806463000969, guid: 5cf098e062e7b544fa4fe343a53ac269, type: 3}
+    - {fileID: 2150221426823543428, guid: b9bbf64353af69b42ae2ddc1ee57e899, type: 3}
+    - {fileID: 590809173930244286, guid: b0a8fc0e6650cb745b43c9931c0979d6, type: 3}
+    - {fileID: 5641299799533046029, guid: b8727949ca32c3e419349030631ea241, type: 3}
+    - {fileID: 1546289510233548904, guid: d31ed4a0d7a2c1041bc745d672cc6b67, type: 3}
+    decoObjs:
+    - {fileID: 6080950564942621456, guid: 16587de42644e604cb105dd9f974d783, type: 3}
+  - tileType: 2
+    tileColor: {r: 0.509434, g: 0.1991397, b: 0, a: 1}
+    tileMat: {fileID: 2100000, guid: f487a7e462cc08b429651a45499c0ad0, type: 2}
+    tileObjs:
+    - {fileID: 326294480539895017, guid: b30910ad3fbb8f94a98e7b8fc91a2541, type: 3}
+    - {fileID: 2312925576380369698, guid: e19059e64397593499b6885c592ab297, type: 3}
+    - {fileID: 382282819073716519, guid: 93d10b95893942e4cbde80648775bfa0, type: 3}
+    - {fileID: 198035155525672506, guid: bfabc2dac4f55db48924cfaa127c3075, type: 3}
+    - {fileID: 1880360268937161528, guid: 76c235736473bc24f9f8ac3a7f9cdf0f, type: 3}
+    - {fileID: 4488581380693813303, guid: a852eeca1a56e644ca08c77e064fd355, type: 3}
+    - {fileID: 7894796424134003104, guid: ffa6505ef3bb12640be3ebbb1dd8a624, type: 3}
+    decoObjs:
+    - {fileID: 6080950564942621456, guid: 16587de42644e604cb105dd9f974d783, type: 3}
+  - tileType: 3
+    tileColor: {r: 1, g: 1, b: 1, a: 1}
+    tileMat: {fileID: 2100000, guid: b7b184311089a3346bc604e8471df7d5, type: 2}
+    tileObjs:
+    - {fileID: 271029325495539556, guid: 72136ffe4a56b12418d81e1a38f2368a, type: 3}
+    - {fileID: 7720705970891330219, guid: 9f99b02f1bd49b54b99abe46a72460ba, type: 3}
+    - {fileID: 2535204739022090379, guid: 8f1856bb14a366341a89226a9047295e, type: 3}
+    - {fileID: 4010496482943127517, guid: 122dc2a72fecda64783009fb457e674d, type: 3}
+    - {fileID: 3727606966794876138, guid: 9cd5482a089fef8449d17910111b18d5, type: 3}
+    - {fileID: 7431547972060460247, guid: 0b731d40860ab554cad98fba88eff94d, type: 3}
+    - {fileID: 4720920976911960299, guid: 4f1cb76ed03a1504d8417f72f112c5b0, type: 3}
+    - {fileID: 8951817192835683253, guid: 9fe1fc01951d8bf4c85a09671b3aab2b, type: 3}
+    decoObjs:
+    - {fileID: 6080950564942621456, guid: 16587de42644e604cb105dd9f974d783, type: 3}
+  - tileType: 4
+    tileColor: {r: 0, g: 0.43137264, b: 1, a: 1}
+    tileMat: {fileID: 2100000, guid: d8be56397090c264a9ad28ff2455a297, type: 2}
+    tileObjs:
+    - {fileID: 5447950495603937360, guid: df9d6a5e984298a42a640470625bd8bf, type: 3}
+    - {fileID: 5159221545110083364, guid: 03c98fb38e60e9b4bba0d57dddce6b20, type: 3}
+    - {fileID: 1501943448670216115, guid: 8cc4765b6f5757f40b2a3e8f4fc4b69e, type: 3}
+    - {fileID: 8525662788060836700, guid: 7728f22367dd30842aa7d0a5054b8cd7, type: 3}
+    - {fileID: 5239773938143089708, guid: 8ec6bc5ebdcca6f4baedea1ca1a6aa27, type: 3}
+    - {fileID: 2715813972596823706, guid: 3b53f95212103fd45b3261067d8dcecb, type: 3}
+    - {fileID: 1483796819637652870, guid: f58b5197ea9d7224d940cbe66f94d20e, type: 3}
+    decoObjs:
+    - {fileID: 6080950564942621456, guid: 16587de42644e604cb105dd9f974d783, type: 3}
+  - tileType: 5
+    tileColor: {r: 1, g: 0.8954584, b: 0.6179246, a: 0}
+    tileMat: {fileID: 2100000, guid: 9a2f48ce9c9db3944b719f7fe5da5a09, type: 2}
+    tileObjs:
+    - {fileID: 6599584858306025975, guid: d8bef415fe7e66648afef1179372087e, type: 3}
+    - {fileID: 8389720679662851704, guid: aea2a08a24a14fd4e87ad6f984e1fca8, type: 3}
+    - {fileID: 2349705575046243356, guid: ce92b9ea027cc9347a50050b3ff26bea, type: 3}
+    - {fileID: 3313695338156351360, guid: f05a217c7cbfdc04b83fb75e0c6f05bb, type: 3}
+    - {fileID: 6028433146346296839, guid: 3868377ef53a106418231404dc1c107c, type: 3}
+    - {fileID: 5744781193907572304, guid: 9273f203bf8e178409bd5d3991697a52, type: 3}
+    - {fileID: 7707229333350830880, guid: 88d8050f3f1542d4abde691ad750db6c, type: 3}
+    - {fileID: 5698796615290713696, guid: 7cb8882e15feabb4fa2bcef40da7925c, type: 3}
+    - {fileID: 8318871183914027825, guid: 25d6896ddcabe744c8f37bc94c20f4f8, type: 3}
+    decoObjs:
+    - {fileID: 6080950564942621456, guid: 16587de42644e604cb105dd9f974d783, type: 3}
+  lineRendererPrefab: {fileID: 3870072378094606420, guid: 78d2ef2e0acd247a5b3d69385a7f6ee8,
+    type: 3}
